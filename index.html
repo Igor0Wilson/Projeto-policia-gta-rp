@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informações, Cursos e Diretrizes do BPRV.">
+    <title>BPRV - Polícia Militar Rodoviária</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fa-solid fa-car-burst"></i> <span>BPRV RP</span>
+            </div>
+            <!-- Abas da Navbar interligadas com as Tabs JS -->
+            <ul class="nav-links main-nav-links">
+                <li><a href="#" class="nav-tab active" data-tab="tab-visao">Início & Propostas</a></li>
+                <li><a href="#" class="nav-tab" data-tab="tab-hierarquia">Hierarquia</a></li>
+                <li><a href="#" class="nav-tab" data-tab="tab-cursos">Cursos Especializados</a></li>
+                <li><a href="#" class="nav-tab" data-tab="tab-contingente">Contingente</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-on-scroll">
+            <div class="badge">Batalhão de Polícia Militar Rodoviária</div>
+            <h1>BPRV</h1>
+            <h2>Honra, Força e Patrulhamento</h2>
+            <p>
+                O presente documento tem como objetivo apresentar nossas diretrizes, o sistema hierárquico, qualificações e o desenvolvimento de ações seguras e táticas na cidade.
+            </p>
+            <div class="hero-quote">
+                "Proteger, servir e honrar a farda."
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <div class="container container-tabs fade-in-on-scroll">
+            
+            <!-- Tab Navigation (Desktop) -->
+            <ul class="tabs-nav blur-glass">
+                <li class="tab-item active" data-target="tab-visao">
+                    <i class="fa-solid fa-file-shield"></i> Visão Geral & Propostas
+                </li>
+                <li class="tab-item" data-target="tab-hierarquia">
+                    <i class="fa-solid fa-sitemap"></i> Hierarquia
+                </li>
+                <li class="tab-item" data-target="tab-cursos">
+                    <i class="fa-solid fa-user-graduate"></i> Cursos (GTA RP)
+                </li>
+                <li class="tab-item" data-target="tab-contingente">
+                    <i class="fa-solid fa-users"></i> Contingente & Perfil
+                </li>
+            </ul>
+
+            <!-- Tab Content Container -->
+            <div class="tab-content-container">
+                
+                <!-- TAB 1: VISÃO GERAL E PROPOSTAS -->
+                <div id="tab-visao" class="tab-content active">
+                    <div class="section-header">
+                        <h2>Nossas Propostas</h2>
+                        <div class="divider"></div>
+                        <p>Estruturamos metodologias para atuar tanto no patrulhamento rodoviário quanto no apoio ostensivo tático em situações críticas.</p>
+                    </div>
+
+                    <div class="cards-grid mt-4">
+                        <div class="proposta-card blur-glass">
+                            <div class="card-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                            <h3>Escoltas Especiais</h3>
+                            <p>Protocolo para deslocamento de alto risco, presos de alta periculosidade, cargas de banco, com foco no PIT maneuver e defesa tática veicular.</p>
+                        </div>
+                        <div class="proposta-card blur-glass">
+                            <div class="card-icon"><i class="fa-solid fa-house-chimney-crack"></i></div>
+                            <h3>Mandados de Alto Risco</h3>
+                            <p>Apoio à Civil e FIC na execução de mandados judiciais, garantindo perímetro de isolamento e intervenção controlada contra barricadas.</p>
+                        </div>
+                        <div class="proposta-card blur-glass">
+                            <div class="card-icon"><i class="fa-solid fa-building-shield"></i></div>
+                            <h3>Retomada de Áreas</h3>
+                            <p>Controle de ocupações do crime organizado em rodovias, pedágios ou prédios públicos, estabelecendo cerco tático em conjunto com operações especiais.</p>
+                        </div>
+                        <div class="proposta-card blur-glass">
+                            <div class="card-icon"><i class="fa-solid fa-people-arrows"></i></div>
+                            <h3>Treinamento Integrado</h3>
+                            <p>Simulações em conjunto (Civil, Bombeiros, etc.). Foco no alinhamento da comunicação rádio, tornando o patrulhamento interativo e realista.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: HIERARQUIA -->
+                <div id="tab-hierarquia" class="tab-content">
+                    <div class="section-header">
+                        <h2>Hierarquia Policial</h2>
+                        <div class="divider"></div>
+                        <p>Nosso batalhão de RP é rigidamente controlado através da cadeia de comando abaixo, respeitando patentes, promoções por mérito e disciplina nas ações em cidade.</p>
+                    </div>
+
+                    <div class="grid-2 align-center mt-4">
+                        <div class="lista-patentes oficiais fade-in-on-scroll">
+                            <h3><i class="fa-solid fa-chess-king accent-color"></i> Oficialato Superior e Integrante</h3>
+                            <ul>
+                                <li><strong>Coronel (Cel):</strong> Comandante Geral. Toma todas as decisões finais corporativas do RP.</li>
+                                <li><strong>Tenente-Coronel (Ten-Cel):</strong> Subcomandante Geral. Responsável por alinhar operações diárias e gerenciar a corporação de forma administrativa administrativa.</li>
+                                <li><strong>Major (Maj):</strong> Chefia divisões, avalia formações e promove integração de base.</li>
+                                <li><strong>Capitão (Cap):</strong> Supervisor direto do patrulhamento. Lidera combos e autoriza abordagens especiais.</li>
+                                <li><strong>Tenente (1º e 2º Ten):</strong> Fiscal da rua (FTP - Força Tática). Orienta a conduta disciplinar das viaturas em serviço (QTI).</li>
+                            </ul>
+                        </div>
+                        <div class="lista-patentes pracas fade-in-on-scroll delay-1">
+                            <h3><i class="fa-solid fa-chess-knight accent-color"></i> Praças e Executantes</h3>
+                            <ul>
+                                <li><strong>Subtenente & Sargento (1º, 2º, 3º):</strong> Sargentos são líderes táticos (SGT) vitais, assumem chefia de guarnição da VTR.</li>
+                                <li><strong>Cabo (Cb):</strong> Praça engajado com especialização tática garantida, auxiliar direto da liderança na viatura.</li>
+                                <li><strong>Soldado (1ª Classe):</strong> Policial com cursos aprovados, com porte para fuzis, assume posições vitais em cercos (P1 ou P3).</li>
+                                <li><strong>Soldado (2ª Classe / Recruta):</strong> Início de carreira em análise probatória. Sem poder de decisão próprio. Segue estritamente as ordens COP.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: CURSOS -->
+                <div id="tab-cursos" class="tab-content">
+                    <div class="section-header">
+                        <h2>Cursos e Especializações (GTA RP CincoM)</h2>
+                        <div class="divider"></div>
+                        <p>O nivelamento e o desenvolvimento funcional garantem que todos compreendam suas responsabilidades in-game.</p>
+                    </div>
+
+                        <!-- Curso Motorista Operacional -->
+                        <div class="curso-box blur-glass">
+                            <div class="curso-title">
+                                <i class="fa-solid fa-car-on"></i> Curso de Motorista Operacional e Escolta
+                            </div>
+                            <div class="curso-texto">
+                                <p>Capacidade de operar em "Escoltas Especiais" e na "Equipe de Resposta Rápida", garantindo coordenação e evitando deslocamentos improvisados que afetam a imersão do RP.</p>
+                                <ul class="curso-detalhes">
+                                    <li><strong><i class="fa-solid fa-crosshairs"></i> O que ensina:</strong> Planejamento prévio, definição de rota principal e alternativa para escoltas de alto risco ou comboios.</li>
+                                    <li><strong><i class="fa-solid fa-book-open"></i> Metodologia:</strong> Treinamento de posições vitais: condução da <strong>Viatura Batedora, Principal, Contenção e Fechamento</strong>. Resposta tática em tentativas de interceptação criminal.</li>
+                                    <li><strong><i class="fa-solid fa-check"></i> Foco do Documento:</strong> Estabilizar cenários graves chegar ao local com efetivo, viaturas e comando já definidos pelo rádio, sem afobação na direção.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Curso Retomada e Mandados -->
+                        <div class="curso-box blur-glass">
+                            <div class="curso-title">
+                                <i class="fa-solid fa-building-shield"></i> Curso Tático: Mandados e Retomadas
+                            </div>
+                            <div class="curso-texto">
+                                <p>Especialização voltada para ocorrências de "Retomada de Prédios Públicos" e "Mandados de Alto Risco" junto à Polícia Civil e base de investigações.</p>
+                                <ul class="curso-detalhes">
+                                    <li><strong><i class="fa-solid fa-crosshairs"></i> O que ensina:</strong> Preparação de Briefings. Isolar área, controlar acessos, criar rotas de entrada e saída.</li>
+                                    <li><strong><i class="fa-solid fa-book-open"></i> Papéis de Especialização:</strong> Treina os policiais para atuar rigidamente como <strong>Operadores de Contenção</strong> ou <strong>Equipe de Entrada</strong>, cada um conhecendo sua função.</li>
+                                    <li><strong><i class="fa-solid fa-check"></i> Foco do Documento:</strong> Transformar a retomada em uma cena bem construída de proporção imersiva com tensão, sem agir de forma precipitada e desordenada.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Curso Negociacao -->
+                        <div class="curso-box blur-glass">
+                            <div class="curso-title">
+                                <i class="fa-solid fa-comments"></i> Especialização em Gestão e Negociação
+                            </div>
+                            <div class="curso-texto">
+                                <p>Focado totalmente no desenvolvimento do cenário e nas diretrizes de estabilização apresentadas pelo batalhão, aplicando paciência para lidar com ocupações e reféns.</p>
+                                <ul class="curso-detalhes">
+                                    <li><strong><i class="fa-solid fa-crosshairs"></i> O que ensina:</strong> Controle operacional do ambiente antes do uso de força. Como aplicar diálogos e evitar o tiroteio ("Fogo Livre") automático.</li>
+                                    <li><strong><i class="fa-solid fa-book-open"></i> Metodologia:</strong> Prioridade inicial em preservar vidas e evacuar civis. Abertura formal de tentativa de diálogo direto e pacífico com infratores.</li>
+                                    <li><strong><i class="fa-solid fa-check"></i> Foco do Documento:</strong> Evitar ações desorganizadas que afetam e prejudicam os civis e o Roleplay dos suspeitos. Exige resposta proporcional.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Curso Patrulhamento Especializado -->
+                        <div class="curso-box blur-glass">
+                            <div class="curso-title">
+                                <i class="fa-solid fa-shield-halved"></i> Operadores de Escudo e Saturação (CDC)
+                            </div>
+                            <div class="curso-texto">
+                                <p>Curso focado no que o documento chama de "Patrulhamento Especializado e Operações de Saturação", provendo presença massiva com qualidade.</p>
+                                <ul class="curso-detalhes">
+                                    <li><strong><i class="fa-solid fa-crosshairs"></i> O que ensina:</strong> Conduta em serviço e patrulha em áreas quentes (comunidades, praças de tráfico). Não agir de forma abusiva.</li>
+                                    <li><strong><i class="fa-solid fa-book-open"></i> Metodologia:</strong> Abordagens coordenadas, bloqueios móveis, uso adequado do rádio com "comunicação limpa", atuação de <strong>Operadores de Escudo</strong> em tumultos ou incursões de risco.</li>
+                                    <li><strong><i class="fa-solid fa-check"></i> Foco do Documento:</strong> Transmitir controle e preparo institucional da BPRv/Choque sem parecer autoritário sem motivo, gerando Cenas Imersivas respeitando o RP da favela/cidade.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                         <!-- Curso Eventos -->
+                         <div class="curso-box blur-glass">
+                            <div class="curso-title">
+                                <i class="fa-solid fa-gavel"></i> Segurança Institucional e Julgamentos
+                            </div>
+                            <div class="curso-texto">
+                                <p>Especialização direcionada às orientações do documento para proteção cível, fóruns, judiciário e lideranças de facção capturadas (Alto Risco).</p>
+                                <ul class="curso-detalhes">
+                                    <li><strong><i class="fa-solid fa-crosshairs"></i> O que ensina:</strong> Controle de fluxo, isolamento de áreas restritas no Fórum e revistas preventivas eficientes em Roleplay.</li>
+                                    <li><strong><i class="fa-solid fa-book-open"></i> Metodologia:</strong> Divisão exata entre a <strong>Equipe Interna</strong> (dentro da audiência) e a <strong>Equipe Externa</strong> (segurança do perímetro urbano). Impedir resgates ou túmulos.</li>
+                                    <li><strong><i class="fa-solid fa-check"></i> Foco do Documento:</strong> Gerar Roleplay para múltiplas facções (advogados, juízes, suspeitos) proporcionando uma cena segura e que exige planejamento tático e silêncio das armas.</li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+
+                <!-- TAB 4: CONTINGENTE E PERFIL -->
+                <div id="tab-contingente" class="tab-content">
+                    <div class="section-header">
+                        <h2>Perfil, Comando e Base de Recrutamento</h2>
+                        <div class="divider"></div>
+                        <p>Nossa fundação une ex-militares e jogadores com maturidade comprovada nos modos imersivos.</p>
+                    </div>
+
+                    <div class="grid-2 mt-4">
+                        <div class="perfil-text">
+                            <h3>Gestão e Perfil de Agentes</h3>
+                            <p>Buscamos criar uma experiência rigorosa e militarista pro corporativo local. Os membros propostos possuem entendimento consolidado, sabem interpretar papéis policiais coesos de stress agudo (P1) à frieza e negociação.</p>
+                            <div class="leadership mt-3 blur-glass">
+                                <div class="leader-card">
+                                    <i class="fa-solid fa-star"></i>
+                                    <div>
+                                        <h5>Comando Proposto</h5>
+                                        <span>Ghost</span>
+                                    </div>
+                                </div>
+                                <div class="leader-card">
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                    <div>
+                                        <h5>Sub-comando</h5>
+                                        <span>Jean</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table-container blur-glass">
+                            <h3>Lista Estratégica (Recrutas RP)</h3>
+                            <div style="max-height: 350px; overflow-y: auto; border-radius: 8px;">
+                                <table class="styled-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Nº</th>
+                                            <th>Nome RP</th>
+                                            <th>ID (Sistema/Discord)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>1º</td><td>Matheus Batata</td><td>7199613200988...</td></tr>
+                                        <tr><td>2º</td><td>Lopes Parker</td><td>1281399166848...</td></tr>
+                                        <tr><td>3º</td><td>Ryan Bischiliari</td><td>4582639979137...</td></tr>
+                                        <tr><td>4º</td><td>Marc Vieira</td><td>1494734218369...</td></tr>
+                                        <tr><td>5º</td><td>Logan Simões</td><td>1481755592304...</td></tr>
+                                        <tr><td>6º</td><td>Andreas Pereira</td><td>8646273357854...</td></tr>
+                                        <tr><td>7º</td><td>Daniel Felipe</td><td>3312487479526...</td></tr>
+                                        <tr><td>10º</td><td>Giselle Mishiruri</td><td>9487477327707...</td></tr>
+                                        <tr><td>11º</td><td>Olivia Mishiruri</td><td>5089214905578...</td></tr>
+                                        <tr><td>12º</td><td>Luiz Ashford</td><td>8145987374972...</td></tr>
+                                        <tr><td>13º</td><td>Leonardo Costa</td><td>7852458816242...</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p class="table-note">* Total de 27 cadastrados prontos para ingressar.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- /tab-content-container -->
+        </div> <!-- /container -->
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">BPRV RP - <span>Polícia Militar Rodoviária</span></div>
+                <p>Diretrizes oficias de Batalhão e RP estruturado.</p>
+                <p class="footer-disclaimer">Documentação exclusivamente voltada ao Roleplay on-line.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Comando BPRV. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
