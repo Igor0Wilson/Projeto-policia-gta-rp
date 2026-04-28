@@ -160,7 +160,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('bprv_bg.png'); /* The BPRv background */
+    background-image: url('elite_pmesp_hero_1777336176012.png'); /* The new Elite background */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -430,6 +430,19 @@ ul {
     color: var(--text-muted);
     font-size: 0.95rem;
 }
+
+.resumo-box {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    background: rgba(250, 204, 21, 0.05);
+    border: 1px solid rgba(250, 204, 21, 0.2);
+    font-size: 0.9rem;
+    color: var(--text-main);
+    text-align: center;
+}
+
+.mb-3 { margin-bottom: 1rem; }
 
 /* Cursos MTA/FiveM Style */
 .curso-wrap {
