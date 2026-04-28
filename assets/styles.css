@@ -160,7 +160,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('elite_pmesp_hero_1777336176012.png'); /* The new Elite background */
+    background-image: url('bprv_bg.png'); /* Back to BPRv background */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -383,6 +383,29 @@ ul {
     color: var(--text-muted);
     font-size: 0.95rem;
 }
+
+.full-width-card {
+    grid-column: 1 / -1;
+}
+
+.detalhes-proposta ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.detalhes-proposta li {
+    background: rgba(255, 255, 255, 0.03);
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    border-left: 2px solid var(--accent-gold);
+}
+
+.italic { font-style: italic; }
 
 /* Hierarquia */
 .lista-patentes {
