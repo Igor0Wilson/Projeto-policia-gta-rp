@@ -1,16 +1,17 @@
 /* Base Styles and Variables */
 :root {
-    --bg-main: #060608;
-    --bg-secondary: #0d0d12;
-    --bg-card: #141418;
+    --bg-main: #0b0f0a;
+    --bg-secondary: #121811;
+    --bg-card: #1a2318;
     --text-main: #e2e8f0;
     --text-muted: #94a3b8;
-    --accent-gold: #facc15;
-    --accent-gold-hover: #eab308;
-    --accent-blue: #3b82f6;
+    --accent-gold: #fbbf24;
+    --accent-gold-hover: #f59e0b;
+    --accent-green: #2d5a27;
+    --accent-green-light: #4c8c4a;
     --accent-red: #ef4444;
-    --glass-bg: rgba(13, 13, 18, 0.7);
-    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(18, 24, 17, 0.75);
+    --glass-border: rgba(255, 255, 255, 0.05);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
@@ -160,7 +161,7 @@ ul {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('bprv_bg.png'); /* Back to BPRv background */
+    background-image: url('eb_bg.png'); /* Brazilian Army background */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -494,8 +495,8 @@ ul {
 }
 
 .curso-title i {
-    color: var(--accent-blue);
-    background: rgba(59, 130, 246, 0.1);
+    color: var(--accent-gold);
+    background: rgba(251, 191, 36, 0.1);
     padding: 10px;
     border-radius: 8px;
 }
@@ -532,7 +533,7 @@ ul {
 }
 
 .curso-detalhes i {
-    color: var(--accent-blue);
+    color: var(--accent-gold);
     width: 20px;
     text-align: center;
 }
